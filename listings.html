@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Petsify - Listings</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=6.0, minimum-scale=1.0">
+  <meta http-equiv="cache-control" content="public">
+  <meta name="description" content="Petsify - your place to share pet food and accessories.">
+  <meta name="author" content="STASZIC">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+</head>
+
+<body class="preload">
+  <header><img class="logo" src="assets/logo.png"></header>
+  <main class="app">
+    <h2>Listings</h2>
+    <div class="switch-button">
+      <input class="switch-button-checkbox" type="checkbox" id="switch" onchange="switchMode()"></input>
+      <label class="switch-button-label" for=""><span class="switch-button-label-span">Ordered</span></label>
+    </div>
+    <div class="option_list">
+      <!--<div class="option">
+        <div class="img_outline food"><img src="assets/food.png"></div>
+        <div class="option_text">
+          <div class="option_title">Dry dog food</div>
+          <div class="option_info">500m from you</div>
+          </div>
+          <div class="option_price">0<span>PLN</span></div>
+          <div class="drop_button"><img class="drop_img" src="assets/arr_bot.png">
+            <div class="drop_list">
+              <a href="tel:+48123456789"><img src="assets/call.png">Call</a>
+              <a href="sms:+48123456789"><img src="assets/chat.png">Chat</a>
+              <a href="google.com"><img src="assets/star.png">Rate user</a>
+            </div>
+          </div>
+      </div>
+      <div class="option">
+        <div class="img_outline toy"><img src="assets/toy.png"></div>
+        <div class="option_text">
+          <div class="option_title">Cat toy</div>
+          <div class="option_info">100m from you</div>
+          </div>
+          <div class="option_price">10<span>PLN</span></div>
+          <div class="drop_button"><img class="drop_img" src="assets/arr_bot.png">
+            <div class="drop_list">
+              <a href="tel:+48123456789"><img src="assets/call.png">Call</a>
+              <a href="sms:+48123456789"><img src="assets/chat.png">Chat</a>
+              <a href="google.com"><img src="assets/star.png">Rate user</a>
+            </div>
+          </div>
+      </div>
+      <div class="option">
+        <div class="img_outline accessories"><img src="assets/accessories.png"></div>
+        <div class="option_text">
+          <div class="option_title">Hamster cage</div>
+          <div class="option_info">350m from you</div>
+          </div>
+          <div class="option_price">30<span>PLN</span></div>
+          <div class="drop_button"><img class="drop_img" src="assets/arr_bot.png">
+            <div class="drop_list">
+              <a href="tel:+48123456789"><img src="assets/call.png">Call</a>
+              <a href="sms:+48123456789"><img src="assets/chat.png">Chat</a>
+              <a href="google.com"><img src="assets/star.png">Rate user</a>
+            </div>
+          </div>
+      </div>-->
+    </div>
+  </main>
+  <div class="navbar">
+    <a href="home.html"><img src="assets/h-off.png"></a>
+    <a href="listings.html" class="menu_outline menu"><img src="assets/p-on.png"></a>
+    <a href="account.html"><img src="assets/a-off.png"></a>
+  </div>
+  <script src="js/dropdown.js"></script>
+  <script src="js/cookieHandler.js"></script>
+  <script src="js/switch.js"></script>
+  <script src="js/loadListings.js"></script>
+  <script>loadListings("orderedByMe");</script>
+  <script src="js/preload.js"></script>
+  <script src="js/sessionHandler.js"></script>
+</body>
+
+</html>

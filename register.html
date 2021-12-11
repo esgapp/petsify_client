@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Petsify - Register</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=6.0, minimum-scale=1.0">
+  <meta http-equiv="cache-control" content="public">
+  <meta name="description" content="Petsify - your place to share pet food and accessories.">
+  <meta name="author" content="STASZIC">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+</head>
+<body class="preload login_body">
+  <div class="screen-1"><img class="mini_logo" src="assets/logo-color.png">
+    <div class="field"><label for="username">Username</label>
+        <div class="sec-2">
+            <img src="assets/user.png"><input id="username" type="text" name="username" placeholder="username" />
+        </div>
+    </div>
+    <div class="field"><label for="email">Email Address</label>
+        <div class="sec-2">
+            <img src="assets/email.png"><input id="email" type="email" name="email" placeholder="username@gmail.com" />
+        </div>
+    </div>
+    <div class="field"><label for="number">Phone number</label>
+        <div class="sec-2">
+            <img src="assets/phone.png"><input id="number" type="tel" name="number" placeholder="+48123456789" />
+        </div>
+    </div>
+    <div class="field"><label for="latitude">Latitude</label>
+        <div class="sec-2">
+            <img src="assets/map.png"><input id="latitude" type="text" name="latitude" placeholder="" />
+        </div>
+    </div>
+    <div class="field"><label for="longitude">Longitude</label>
+        <div class="sec-2">
+            <img src="assets/map.png"><input id="longitude" type="text" name="longitude" placeholder="" />
+        </div>
+    </div>
+
+    <div class="field"><label for="password">Password</label>
+        <div class="sec-2">
+            <img src="assets/pass.png"><input id="pass" class="pas" type="password" name="password" placeholder="············" />
+        </div>
+    </div>
+
+    <button onclick="register()" class="lr_button">Sign up </button>
+    <div class="footer"><a href="login.html">Sign in</a><a style="color:var(--main3)">Forgot Password?</a></div>
+</div>
+  <script src="js/logreg.js"></script>
+  <script src="js/preload.js"></script>
+  <script src="js/cookieHandler.js"></script>
+  <script src="js/sessionHandler.js"></script>
+</body>
+
+</html>

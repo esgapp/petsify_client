@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Petsify - My account</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=6.0, minimum-scale=1.0">
+  <meta http-equiv="cache-control" content="public">
+  <meta name="description" content="Petsify - your place to share pet food and accessories.">
+  <meta name="author" content="STASZIC">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+</head>
+<body class="preload">
+  <header><img class="logo" src="assets/logo.png"></header>
+  <main class="app" id="main_account">
+    <h2>Your account</h2>
+    <img src="assets/big_user.png">
+    <h2 id="account_name"></h2>
+    <h3 id="account_mail"></h3>
+    <h3 id="account_number"></h3>
+    <h4>You are with us since December 2021!</h4>
+    <h4 style="margin-top:10px;" onclick="logout()">Logout</h4>
+    </main>
+    <div class="navbar">
+      <a href="home.html"><img src="assets/h-off.png"></a>
+      <a href="listings.html"><img src="assets/p-off.png"></a>
+      <a href="account.html" class="menu_outline menu"><img src="assets/a-on.png"></a>
+    </div>
+  <script src="js/preload.js"></script>
+  <script src="js/cookieHandler.js"></script>
+  <script src="js/account.js"></script>
+  <script src="js/sessionHandler.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Petsify - Home</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=6.0, minimum-scale=1.0">
+  <meta http-equiv="cache-control" content="public">
+  <meta name="description" content="Petsify - your place to share pet food and accessories.">
+  <meta name="author" content="STASZIC">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+</head>
+<body class="preload">
+  <header><img class="logo" src="assets/logo.png"><a href="addlisting.html" class="button alpha_green">Create post<img class="button_icon" src="assets/plus_green.png"></a></header>
+  <main class="app">
+    <h2>Hello <span class="underline">Artur</span>!</h2>
+    <div class="box"><h3>Check out the newest listings near you:</h3><div><img src="assets/filter.png"></div><div><img src="assets/sort.png"></div></div>
+    <div class="option_list">
+      <!--<div class="option">
+        <div class="img_outline food"><img src="assets/food.png"></div>
+        <div class="option_text">
+          <div class="option_title">Dry dog food</div>
+          <div class="option_info"><img src="assets/delivery.png">Delivery</div>
+          </div>
+          <div class="option_price">0<span>PLN</span></div>
+            <img class="cart" src="assets/shopping-cart.png">
+      </div>
+      <div class="option">
+        <div class="img_outline toy"><img src="assets/toy.png"></div>
+        <div class="option_text">
+          <div class="option_title">Cat toy</div>
+          <div class="option_info"><img src="assets/pickup.png">Pickup</div>
+          </div>
+          <div class="option_price">10<span>PLN</span></div>
+            <img class="cart" src="assets/shopping-cart.png">
+      </div>
+      <div class="option">
+        <div class="img_outline accessories"><img src="assets/accessories.png"></div>
+        <div class="option_text">
+          <div class="option_title">Hamster cage</div>
+          <div class="option_info"><img src="assets/pickup.png">Pickup</div>
+          </div>
+          <div class="option_price">30<span>PLN</span></div>
+            <img class="cart" src="assets/shopping-cart.png">
+      </div>-->
+      </div>
+    </main>
+    <div class="navbar">
+      <a href="home.html" class="menu_outline menu"><img src="assets/h-on.png"></a>
+      <a href="listings.html"><img src="assets/p-off.png"></a>
+      <a href="account.html"><img src="assets/a-off.png"></a>
+    </div>
+    <script src="js/cookieHandler.js"></script>
+    <script src="js/react.js"></script>
+    <script src="js/loadListings.js"></script>
+    <script>
+    loadListings("availableListings");
+    </script>
+  <script src="js/preload.js"></script>
+  <script src="js/sessionHandler.js"></script>
+</body>
+
+</html>

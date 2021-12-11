@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Petsify - Login</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=6.0, minimum-scale=1.0">
+  <meta http-equiv="cache-control" content="public">
+  <meta name="description" content="Petsify - your place to share pet food and accessories.">
+  <meta name="author" content="STASZIC">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+</head>
+<body class="preload login_body">
+  <form class="screen-1" onsubmit="return false;"><img class="mini_logo" src="assets/logo-color.png">
+    <div class="field"><label for="username">Username</label>
+        <div class="sec-2">
+            <img src="assets/user.png"><input id="username" type="text" name="username" placeholder="username" />
+        </div>
+    </div>
+    <div class="field"><label for="password">Password</label>
+        <div class="sec-2">
+            <img src="assets/pass.png"><input id="pass" class="pas" type="password" name="password" placeholder="············" />
+        </div>
+    </div><button onclick="login()" class="lr_button">Login </button>
+    <div class="footer"><a href="register.html">Sign up</a><a>Forgot Password?</a></div>
+</form>
+  <script src="js/cookieHandler.js"></script>
+  <script src="js/logreg.js"></script>
+  <script src="js/preload.js"></script>
+  <script src="js/sessionHandler.js"></script>
+</body>
+
+</html>

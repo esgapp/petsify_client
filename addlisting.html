@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Petsify - Add Listing</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=6.0, minimum-scale=1.0">
+  <meta http-equiv="cache-control" content="public">
+  <meta name="description" content="Petsify - your place to share pet food and accessories.">
+  <meta name="author" content="STASZIC">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+</head>
+<body class="preload addlisting_body">
+  <form class="screen-1" onsubmit="return false;"><a href="home.html"><img class="mini_logo" src="assets/logo-color.png"></a>
+    <div class="field"><label for="title">Title</label>
+        <div class="sec-2">
+            <img src="assets/text.png"><input id="title" type="text" name="title" placeholder="" />
+        </div>
+    </div>
+    <div class="field"><label for="description">Description</label>
+        <div class="sec-2">
+            <img src="assets/text.png"><input id="description" type="text" name="description" placeholder="" />
+        </div>
+    </div>
+    <div class="field"><label for="price">Price</label>
+        <div class="sec-2">
+            <img src="assets/price.png"><input id="price" type="number" name="price" placeholder="" />
+        </div>
+    </div>
+    <div class="field"><label>Delivery type</label>
+        <div class="radio_row"><input type="radio" class="radio" id="delivery" name="delivery" value="Pickup" checked><label for="delivery">Pickup</label></div>
+        <div class="radio_row"><input type="radio" class="radio" id="delivery2" name="delivery" value="Delivery"><label for="delivery2">Delivery</label></div>
+    </div>
+    <div class="field"><label>Pet type</label>
+        <div class="radio_row"><input type="radio" class="radio" id="pet" name="pet" value="Dogs"><label for="pet">Dog</label></div>
+        <div class="radio_row"><input type="radio" class="radio" id="pet2" name="pet" value="Cats"><label for="pet2">Cat</label></div>
+        <div class="radio_row"><input type="radio" class="radio" id="pet3" name="pet" value="Other" checked><label for="pet3">Other</label></div>
+    </div>
+    <div class="field"><label>Item type</label>
+        <div class="radio_row"><input type="radio" class="radio" id="item" name="item" value="Food"><label for="item">Food</label></div>
+        <div class="radio_row"><input type="radio" class="radio" id="item2" name="item" value="Toys"><label for="item2">Toys</label></div>
+        <div class="radio_row"><input type="radio" class="radio" id="item3" name="item" value="Other" checked><label for="item3">Other</label></div>
+    </div>
+
+    <button onclick="addListing()" class="lr_button">Add </button>
+    <div class="footer"><a style="color:#e1e1e1">Sign up</a><a style="color:#e1e1e1">Forgot Password?</a></div>
+</form>
+<div class="navbar">
+  <a href="home.html"><img src="assets/h-off.png"></a>
+  <a href="listings.html"><img src="assets/p-off.png"></a>
+  <a href="account.html"><img src="assets/a-off.png"></a>
+</div>
+  <script src="js/addListing.js"></script>
+  <script src="js/preload.js"></script>
+  <script src="js/cookieHandler.js"></script>
+  <script src="js/sessionHandler.js"></script>
+</body>
+
+</html>
