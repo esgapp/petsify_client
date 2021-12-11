@@ -20,7 +20,7 @@
 <body class="preload">
   <header><img class="logo" src="assets/logo.png"><a href="addlisting.html" class="button alpha_green">Create post<img class="button_icon" src="assets/plus_green.png"></a></header>
   <main class="app">
-    <h2>Hello <span class="underline">Artur</span>!</h2>
+    <h2>Hello <span class="underline" id="h2_user"></span>!</h2>
     <div class="box"><h3>Check out the newest listings near you:</h3><div><img src="assets/filter.png"></div><div><img src="assets/sort.png"></div></div>
     <div class="option_list">
       <!--<div class="option">
@@ -58,6 +58,9 @@
       <a href="account.html"><img src="assets/a-off.png"></a>
     </div>
     <script src="js/cookieHandler.js"></script>
+    <script>
+    document.getElementById('h2_user').textContent = getCookie("username");
+    </script>
     <script src="js/react.js"></script>
     <script src="js/loadListings.js"></script>
     <script>
