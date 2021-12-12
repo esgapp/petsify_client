@@ -11,3 +11,7 @@ if(filename=="index.html"||filename=="login.html"||filename=="register.html"){
     window.location.href = "index.html"
   }
 }
+
+Weglot.initialize({
+    api_key: 'wg_86e3f9974f5ead12c0122ca4ebe5d49d4'
+});
