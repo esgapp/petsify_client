@@ -99,6 +99,7 @@ async function generateListings(content, mode){
       img_func.src="assets/arr_bot.png";
       img_func.classList.add("drop_img");
       let drop_button = document.createElement("div");
+      drop_button.tabIndex = 1;
       drop_button.classList.add("drop_button");
 
       let drop_list = document.createElement("div");
