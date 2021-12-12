@@ -251,7 +251,7 @@ main.app .box div:last-child {
   cursor:pointer;
 }
 
-.cart_button img{
+.cart_button img, .drop_button img{
   pointer-events: none;
 }
 
