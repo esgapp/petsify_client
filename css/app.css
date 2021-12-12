@@ -267,7 +267,7 @@ main.app .box div:last-child {
   color:var(--dark1);
   border-radius:15px;
   position: absolute;
-  right:-26px;
+  right:5px;
   top:30px;
   padding:10px;
   z-index:100;
